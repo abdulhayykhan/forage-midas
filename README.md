@@ -23,11 +23,12 @@ This project demonstrates a modern microservices-oriented architecture using a v
 ## 📋 How to Run
 
 1.  **Start Zookeeper & Kafka:** Ensure your local Kafka environment is running.
-2.  **Start the Incentive Service:** ```powershell
+2.  **Start the Incentive Service:**
+   ```powershell
     cd services
     java -jar transaction-incentive-api.jar
     ```
-3.  **Run Midas Core:** Use your IDE or run the Maven wrapper:
+4.  **Run Midas Core:** Use your IDE or run the Maven wrapper:
     ```powershell
     ./mvnw spring-boot:run
     ```
@@ -37,6 +38,7 @@ This project demonstrates a modern microservices-oriented architecture using a v
 The project includes comprehensive test suites for each module. To run the full integration tests:
 ```powershell
 ./mvnw test
+```
 
 ---
 
