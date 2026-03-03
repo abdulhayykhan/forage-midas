@@ -27,8 +27,8 @@ This project demonstrates a modern microservices-oriented architecture using a v
    ```powershell
     cd services
     java -jar transaction-incentive-api.jar
-```
-4.  **Run Midas Core:** Use your IDE or run the Maven wrapper:
+   ```
+3.  **Run Midas Core:** Use your IDE or run the Maven wrapper:
     ```powershell
     ./mvnw spring-boot:run
     ```
